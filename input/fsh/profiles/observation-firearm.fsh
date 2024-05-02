@@ -8,18 +8,18 @@ Description: "Defines constraints on the Observation resource to capture informa
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * code MS
 * code = nvdrs-custom-code-system#firearm "Details on Firearm"
-// * subject 1..1 MS
-// * component ..* MS
-// * component ^slicing.discriminator.type = #patternjust
-// * component ^slicing.discriminator.path = "code"
-// * component ^slicing.ordered = false
-// * component ^slicing.rules = #open
-// * component contains
-//     make 0..1 MS and
-//     caliber 0..1 MS
-// * component[make].code = nvdrs-custom-code-system#firearm-make "Firearm - Gun Make or NCIC Code"
-// * component[make].value[x] only string or CodeableConcept
-// //   * valueCode from ncic-gun-make (preferred)
-// * component[caliber].code = nvdrs-custom-code-system#firearm-caliber "Firearm - Caliber"
-// * component[caliber].value[x] only string
-//   // TODO: Add quantity?
+* subject 1..1 MS
+* component ..* MS
+* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.path = "code"
+* component ^slicing.ordered = false
+* component ^slicing.rules = #open
+* component contains
+    make 0..1 MS and
+    caliber 0..1 MS
+* component[make].code = nvdrs-custom-code-system#firearm-make "Firearm - Gun Make or NCIC Code"
+* component[make].value[x] only string or CodeableConcept
+* component[make].valueCodeableConcept from ncic-firearm-make (preferred) // TODO: Fix this so it doesn't display oddly in the rendered HTML
+* component[caliber].code = nvdrs-custom-code-system#firearm-caliber "Firearm - Caliber"
+* component[caliber].value[x] only string
+  // TODO: Add quantity?

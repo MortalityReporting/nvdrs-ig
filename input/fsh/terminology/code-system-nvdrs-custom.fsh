@@ -4,6 +4,8 @@ Title: "NVDRS IG Custom Codes"
 Description: "Code system defined for use in the NVDRS IG artifacts."
 * ^caseSensitive = true
 
+// Category Codes -- Can be used as both Composition section codes and 
+
 // Firearm observation codes
 * #firearm "Details on Firearm"
     "Details on firearm."
