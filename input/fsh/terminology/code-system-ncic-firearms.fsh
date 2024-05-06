@@ -9,6 +9,6 @@ Description: "Code system defined for use in the NVDRS IG artifacts, capturing t
 
 // Example Codes
 * #GLD "Glock Inc. (Smyrna, Georgia)"
-    "Subsidiary of original Glock guns manufactured in the USA, NOT Austria."
+    "Subsidiary of original Glock guns manufactured in the USA, NOT Austria"
 * #GLC "Glock Inc."
     "Original Glock guns manufactured in Austria. See GLD for Glocks manufactured in the USA."
