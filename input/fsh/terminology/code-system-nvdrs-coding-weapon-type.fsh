@@ -1,0 +1,23 @@
+CodeSystem: NVDRSWeaponTypeCoding
+Id: nvdrs-weapon-type-code-system
+Title: "NVDRS Coding Manual Codes - Weapon Type"
+Description: "Code system defined for use in the NVDRS IG artifacts. This code system captures codes directly from the NVDRS Coding Manual. For custom codes defined solely for the use of this FHIR Implementation Guide, see the NVDRS Custom Code System artifact."
+* ^caseSensitive = true
+* #1 "Firearm"
+* #5 "Non-powder gun"
+* #6 "Sharp instrument"
+* #7 "Blunt instrument"
+* #8 "Poisoning"
+* #9 "Hanging, strangulation, suffocation"
+* #10 "Personal weapons"
+* #11 "Fall"
+* #12 "Explosive"
+* #13 "Drowning"
+* #14 "Fire or burns"
+* #15 "Shaking (e.g., shaken baby syndrome)"
+* #16 "Motor Vehicle, including buses, motorcycles"
+* #17 "Other transport vehicle, (e.g., trains, planes, boats)"
+* #18 "Intentional neglect, (e.g., starving a baby or oneself)"
+* #19 "Biological weapons"
+* #66 "Other (e.g., Taser, electrocution, nail gun, exposure to environment/weather)"
+* #99 "Unknown"

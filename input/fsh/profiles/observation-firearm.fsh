@@ -1,5 +1,5 @@
 Profile: NVDRSFirearm
-Parent: Observation
+Parent: nvdrs-weapons-cme
 Id: nvdrs-firearm
 Title: "NVDRS Firearm"
 Description: "Defines constraints on the Observation resource to capture information on a Firearm for NVDRS records."
@@ -15,11 +15,34 @@ Description: "Defines constraints on the Observation resource to capture informa
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open
 * component contains
+    type 0..1 MS and
     make 0..1 MS and
-    caliber 0..1 MS
+    model 0..1 MS and
+    caliber 0..1 MS and
+    gauge 0..1 MS
+* component[type].code = nvdrs-custom-code-system#firearm-type "Firearm - Type"
+* component[type].value[x] only CodeableConcept
 * component[make].code = nvdrs-custom-code-system#firearm-make "Firearm - Gun Make or NCIC Code"
 * component[make].value[x] only string or CodeableConcept
 * component[make].valueCodeableConcept from ncic-firearm-make (preferred) // TODO: Fix this so it doesn't display oddly in the rendered HTML
+* component[model].code = nvdrs-custom-code-system#firearm-model "Firearm - Gun Model"
+* component[model].value[x] only string
 * component[caliber].code = nvdrs-custom-code-system#firearm-caliber "Firearm - Caliber"
 * component[caliber].value[x] only string
   // TODO: Add quantity?
+* component[gauge].code = nvdrs-custom-code-system#firearm-gauge "Firearm - Gauge"
+* component[gauge].value[x] only string
+
+/**
+Fields for discussion:
+Gun Loaded
+Gun Owner
+Gun Stored Locked
+Firearm Stolen
+
+General thoughts: As these act as modifiers wherein the core resource describes 
+the attributes of the firearm as an object, an extension might be the most
+appropriate case for each. For Gun Owner, this also allows the use of a valueReference
+wherein we can provide an opportunity for either a direct Person resource reference
+or capturing summary data in the reference object.
+**/
