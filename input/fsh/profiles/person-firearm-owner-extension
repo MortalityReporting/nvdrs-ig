@@ -1,0 +1,9 @@
+Profile: NVDRSFirearmOwnerExtension
+Parent: Person
+Id: nvdrs-firearm-owner-extension
+Title: "NVDRS Firearm Owner Extension"
+Description: "Defines constraints on the Person resource to capture information about the owner of a firearm for NVDRS records."
+* ^experimental = true
+* ^publisher = "Georgia Tech Research Institute"
+* ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
+* name 1..* MS
