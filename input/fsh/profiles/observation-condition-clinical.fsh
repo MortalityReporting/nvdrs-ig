@@ -24,22 +24,22 @@ Description: "Defines restrictions on the observation resource to capture inform
      suicide-attempt 0..1 MS
 * component[abuse].code = nvdrs-custom-code-system#death-abuse "Condition Clinical - Death Abuse"
 * component[abuse].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 * component[depressed].code = nvdrs-custom-code-system#depressed-mood "Condition Clinical - Depressed Mood"
 * component[depressed].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 * component[mental-illness].code = nvdrs-custom-code-system#history-mental-illness-treatmnt "Condition Clinical - History Mental Illness Treatmnt"
 * component[mental-illness].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 * component[self-harm].code = nvdrs-custom-code-system#history-self-harm "Condition Clinical - History Self Harm"
 * component[self-harm].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 * component[random-violence].code = nvdrs-custom-code-system#random-violence "Condition Clinical - Random Violence"
 * component[random-violence].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 * component[school-problem].code = nvdrs-custom-code-system#school-problem "Condition Clinical - School Problem"
 * component[school-problem].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 * component[suicide-attempt].code = nvdrs-custom-code-system#school-problem "Condition Clinical - School Problem"
 * component[suicide-attempt].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)

@@ -1,0 +1,11 @@
+ValueSet: RelationshipVS
+Title: "Relationship Value Set"
+Description: "This variable can be used to better understand how victims and suspects gain access to the firearms they use to injure themselves or others."
+* nvdrs-custom-code-system#1 "Shooter"
+* nvdrs-custom-code-system#2 "Parent of shooter"
+* nvdrs-custom-code-system#3 "Other family member of shooter"
+* nvdrs-custom-code-system#4 "Spouse/Intimate partner of shooter"
+* nvdrs-custom-code-system#6 "Friend/Acquaintance of shooter"
+* nvdrs-custom-code-system#7 "Stranger to shooter"
+* nvdrs-custom-code-system#66 "Other (specify in gun access narrative)"
+* nvdrs-custom-code-system#99 "Unknown"

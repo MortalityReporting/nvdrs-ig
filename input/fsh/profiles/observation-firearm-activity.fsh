@@ -19,8 +19,8 @@ Description: "Defines constraints on the Observation resource to capture informa
      drive 0..1 MS
 * component[playing].code = nvdrs-custom-code-system#playing-with-gun "Playing with Gun"
 * component[playing].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 * component[drive].code = nvdrs-custom-code-system#drive-by-shooting "Drive By Shooting"
 * component[drive].value[x] only CodeableConcept
-* valueCodeableConcept from YesNoValueSet (extensible)
+* valueCodeableConcept from $NVDRS-YesNoUnknown-CDC (extensible)
 
