@@ -1,4 +1,4 @@
-Extension: NVDRSInicdentYearExtension
+Extension: NVDRSIncidentYearExtension
 Id: nvdrs-incident-year-extension
 Title: "NVDRS Incident Year Extension"
 Description: "Extension to support NVDRS incident year."

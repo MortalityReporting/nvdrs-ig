@@ -8,6 +8,8 @@ Description: "Defines constraints to the Composition resource in order to packag
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 
 * extension contains 
+    nvdrs-force-new-record-extension named force-new-record-control-variable 0..1 MS and
+    nvdrs-overwrite-conflicts-extension named overwrite-conflicts-control-variable 0..1 MS and
     identifier-extension named additional-identifiers 0..* MS and
     nvdrs-incident-year-extension named incident-year 0..1 MS
 
