@@ -4,11 +4,25 @@ Title: "NVDRS IG Custom Codes"
 Description: "Code system defined for use in the NVDRS IG artifacts."
 * ^caseSensitive = true
 
+// Document Types (Import Type)
+* #dc-report "DC Report"
+* #cme-report "CME Report"
+* #icd-10 "ICD-10" // TODO: Need context on this.
+
 // Category Codes -- Can be used as both Composition section codes and observation categories.
+* #demographics "Demographics"
+    "Data elements that fall under the demographics category."
+* #injury-and-death "Injury and Death"
+    "Data elements that fall under the injury and death category."
+* #toxicology "Toxicology"
+    "Data elements that fall under the toxicology category."
 * #circumstances "Circumstances"
     "Data elements that fall under the circumstances category."
 * #weapons "Weapon(s)"
     "Data elements that fall under the weapon(s) category."
+* #suspects "Suspect(s)"
+* #overdose "Overdose"
+
 
 // Firearm observation codes
 * #firearm "Details on Firearm"
@@ -26,4 +40,6 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #playing-with-gun "Playing with Gun"
     "Playing with gun."
 
-
+// Custom Toxicology codes
+* #amphetimines "Amphetimines Tested"
+    "Decedent was tested for presence of amphetimines."
