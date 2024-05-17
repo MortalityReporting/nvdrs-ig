@@ -46,6 +46,16 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #amphetimines "Amphetimines Tested"
     "Decedent was tested for presence of amphetimines."
 
+// Wound Location Codes
+* #wound-to-the-head "Wound to the head"
+* #wound-to-the-face "Wound to the face"
+* #wound-to-the-neck "Wound to the neck"
+* #wound-to-an-upper-extermity "Wound to an upper extremity"
+* #wound-to-the-spine "Wound to the spine"
+* #wound-to-the-thorax "Wound to the thorax"
+* #wound-to-the-abdomen "Wound to the abdomen"
+* #wound-to-a-lower-exterminity "Wound to a lower extremity"
+
 
 // NVDRS Coding Manual Codes
 
