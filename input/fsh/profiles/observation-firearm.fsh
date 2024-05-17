@@ -11,7 +11,7 @@ Description: "Defines constraints on the Observation resource to capture informa
 * subject 1..1 MS
 * component ..* MS
 * component ^slicing.discriminator.type = #pattern
-* component ^slicing.discriminator.path = "code"
+* component ^slicing.discriminator.path = "code"    
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open
 * component contains
@@ -28,6 +28,5 @@ Description: "Defines constraints on the Observation resource to capture informa
 * component[model].value[x] only string
 * extension contains 
     NVDRSStolen named stolen 0..1 MS and
-    NVDRSStoledLoaded named stored-loaded 0..1 MS and
-    NVDRSSerialNumber named serial-number 0..1 MS and
+    NVDRSStoledLoaded named stored-loaded 0..1 MS and   
     NVDRSFirearmOwner named firearm-owner 0..1 MS
