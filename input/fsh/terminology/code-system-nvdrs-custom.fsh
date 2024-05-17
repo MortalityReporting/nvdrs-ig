@@ -23,10 +23,12 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #suspects "Suspect(s)"
 * #overdose "Overdose"
 
-
-// Firearm observation codes
+// Weapon(s) Section Observation Codes
+* #weapon-type "Type of Weapon"
 * #firearm "Details on Firearm"
     "Details on firearm."
+
+// Firearm Component codes
 * #firearm-type "Firearm - Firearm Type"
     "The type of the firearm."
 * #firearm-make "Firearm - Gun Make or NCIC Code"

@@ -8,7 +8,6 @@ Description: "Defines constraints on the Observation resource to capture informa
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * code MS
 * code = nvdrs-custom-code-system#firearm "Details on Firearm"
-* subject 1..1 MS
 * component ..* MS
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
