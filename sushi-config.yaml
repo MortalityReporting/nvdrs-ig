@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.example
-canonical: https://mortalityreporting.github.io/nvdrs-ig/
+canonical: https://mortalityreporting.github.io/nvdrs-ig
 name: nvdrs-ig
 # title: Example Title
 description: National Violent Death Reporting System FHIR Implementation Guide. This is a prototype development version intended to build out initial profiles and documenation to be integrated into other Implementation Guides later.
