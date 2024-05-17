@@ -1,4 +1,11 @@
 
+// Standard Terminologies/Code Systems
+Alias: $loinc = http://loinc.org
+Alias: $sct = http://snomed.info/sct
+Alias: $ucum = http://unitsofmeasure.org
+Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
+Alias: $cpt4 = http://www.ama-assn.org/go/cpt
+
 
 // HL7 ValueSets
 //yes-no-v2 version: http://terminology.hl7.org/ValueSet/v2-0136 

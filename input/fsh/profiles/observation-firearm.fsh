@@ -6,6 +6,12 @@ Description: "Defines constraints on the Observation resource to capture informa
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
+* extension contains 
+    nvdrs-firearm-stolen-extension named nvdrs-firearm-stolen 0..1 MS and
+    nvdrs-gun-stored-loaded-extension named nvdrs-stored-loaded 0..1 MS and
+    nvdrs-gun-stored-locked-extension named nvdrs-stored-locked 0..1 MS and
+    nvdrs-firearm-owner-extension named nvdrs-firearm-owner 0..1 MS and
+    firearm-serial-number named serial-number 0..1
 * code MS
 * code = nvdrs-custom-code-system#firearm "Details on Firearm"
 * component ..* MS

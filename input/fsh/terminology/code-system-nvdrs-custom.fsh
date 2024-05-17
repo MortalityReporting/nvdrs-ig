@@ -45,3 +45,15 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 // Custom Toxicology codes
 * #amphetimines "Amphetimines Tested"
     "Decedent was tested for presence of amphetimines."
+
+
+// NVDRS Coding Manual Codes
+
+// Gun Owner
+* #shooter "Shooter"
+* #parent "Parent of shooter"
+* #other-family-member "Other family member of shooter"
+* #intimate-partner "Spouse/Intimate partner of shooter"
+* #friend-acquaintance "Friend/Acquaintance of shooter"
+* #stranger "Stranger to shooter"
+* #other-specify "Other (specify in gun access narrative)"
