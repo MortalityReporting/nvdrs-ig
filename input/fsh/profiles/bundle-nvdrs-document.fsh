@@ -9,10 +9,9 @@ Description: "Defines constraints to the Bundle resource in order to package NVD
 * type = #document (exactly)
 * identifier 0..1 MS
 * entry 1..* MS
-// * obeys nvdrs-bdl-1
+* obeys nvdrs-bdl-1
 
-// TODO: Review composition profile name after settling on handling across types w/ sections.
-// Invariant: nvdrs-bdl-1
-// Description: "If Bundle is of type document, the first resource in Bundle.entry SHALL be of type Composition conforming to the NVDRS Composition Profile"
-// Expression: "entry.first().resource.meta.profile.contains('http://example.org/StructureDefinition/composition-nvdrs')"
-// Severity: #error
+Invariant: nvdrs-bdl-1
+Description: "If Bundle is of type document, the first resource in Bundle.entry SHALL be of type Composition conforming to the NVDRS Composition Profile"
+Expression: "entry.first().resource.meta.profile.contains('https://mortalityreporting.github.io/nvdrs-ig/StructureDefinition/nvdrs-composition')"
+Severity: #error
