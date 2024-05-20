@@ -49,26 +49,33 @@ Description: "Defines constraints to the Composition resource in order to packag
 * section[demographics]
   * title = "Demographics"
   * code = nvdrs-custom-code-system#demographics "Demographics"
+  * entry MS
 * section[injury-and-death]
   * title = "Injury and Death"
   * code = nvdrs-custom-code-system#injury-and-death "Injury and Death"
+  * entry MS
 * section[toxicology]
   * title = "Toxicology"
   * code = nvdrs-custom-code-system#toxicology "Toxicology"
+  * entry MS
 * section[circumstances]
   * title = "Circumstances"
   * code = nvdrs-custom-code-system#circumstances "Circumstances"
+  * entry MS
 //  * entry only Reference(nvdrs-circumstance-cme) // TODO: Add back constraint, omitted for testing.
 * section[weapons]
   * title = "Weapon(s)"
   * code = nvdrs-custom-code-system#weapons "weapons"
+  * entry MS
 //  * entry only Reference(nvdrs-weapons-cme) // TODO: Add back constraint, omitted for testing.
 * section[suspects]
   * title = "Suspect(s)"
   * code = nvdrs-custom-code-system#toxicology "Suspect(s)"
+  * entry MS
 * section[overdose]
   * title = "Overdose"
   * code = nvdrs-custom-code-system#overdose "Overdose"
+  * entry MS
 
 /**
 CME Sections:
