@@ -7,7 +7,8 @@ Description: "Defines constraints to the Bundle resource in order to package NVD
 * ^publisher = "Georgia Tech Research Institute"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * type = #document (exactly)
-* identifier 0..1 MS
+* identifier 1..1 MS
+* timestamp 1..1 MS
 * entry 1..* MS
 * obeys nvdrs-bdl-1
 
