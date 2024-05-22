@@ -26,8 +26,6 @@ publisher:
 #
 dependencies:
   hl7.fhir.us.vrdr:
-    id: hl7.fhir.us.vrdr
-    uri: http://hl7.org/fhir/us/vrdr/
     version: 3.0.0-ballot
 
 #
