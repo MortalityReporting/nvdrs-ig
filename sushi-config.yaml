@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.example
-canonical: http://example.org
+id: fhir.nvdrs
+canonical: http://mortalityreporting.github.io/nvdrs-ig
 name: nvdrs-ig
 # title: Example Title
 description: National Violent Death Reporting System FHIR Implementation Guide. This is a prototype development version intended to build out initial profiles and documenation to be integrated into other Implementation Guides later.
@@ -18,7 +18,7 @@ jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.h
 publisher:
   name: Georgia Tech Research Institute - ICL HEAT Division
   url: https://gtri.gatech.edu/
-  # email: test@example.org
+  email: nvdrs-ig@gtri.gatech.edu
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -78,6 +78,7 @@ menu:
   Home: index.html
   Artifacts: artifacts.html
   Value Set Mapping: vsmapping.html
+  System Identifiers: system-identifiers.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
