@@ -13,3 +13,7 @@ Alias: $cpt4 = http://www.ama-assn.org/go/cpt
 
 // VRCL, VRDR, or MDI Terminologies
 Alias: $vrdr-yes-no-unk-vs = http://hl7.org/fhir/us/vr-common-library/ValueSet/ValueSet-yes-no-unknown-vr
+
+//VRDR Profiles
+Alias: $vrdr-manner-of-death = http://hl7.org/fhir/us/vrdr/StructureDefinition/vrdr-manner-of-death
+Alias: $vrdr-decedent = http://hl7.org/fhir/us/vrdr/StructureDefinition/vrdr-decedent

@@ -1,5 +1,5 @@
 Profile: NVDRSWoundLocation
-Parent: Observation
+Parent: nvdrs-injury-and-death
 Id: nvdrs-wound-location
 Title: "NVDRS Wound Location"
 Description: "Defines constraints on the Observation resource to capture information on wound locations."
