@@ -39,8 +39,10 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
     "The caliber of the firearm."
 * #firearm-gauge "Firearm - Gauge"
     "The gauge of the firearm."
-* #playing-with-gun "Playing with Gun"
-    "Playing with gun."
+
+// Circumstances codes
+* #playing-with-firearm "Playing with Firearm"
+    "Playing with Firearm."
 
 // Custom Toxicology codes
 * #amphetimines "Amphetimines Tested"
