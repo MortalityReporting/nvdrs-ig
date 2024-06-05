@@ -43,6 +43,8 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 // Circumstances codes
 * #playing-with-firearm "Playing with Firearm"
     "Playing with Firearm."
+* #gang-related "Gang Related"
+    "Death was gang related."
 
 // Custom Toxicology codes
 * #amphetimines "Amphetimines Tested"
