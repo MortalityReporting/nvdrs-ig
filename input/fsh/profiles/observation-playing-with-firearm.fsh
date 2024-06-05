@@ -8,4 +8,5 @@ Description: "Defines constraints on the Observation resource to capture whether
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * code MS
 * code = nvdrs-custom-code-system#playing-with-firearm "Playing with Firearm"
-* value[x] only boolean // TODO: Add VS needed?
+* value[x] only CodeableConcept
+* value[x] from $vrdr-yes-no-unk-vs (required)
