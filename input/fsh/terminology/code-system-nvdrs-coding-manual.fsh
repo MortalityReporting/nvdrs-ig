@@ -7,6 +7,12 @@ Description: "Code system defined for use in the NVDRS IG artifacts based on the
 
 // NVDRS Coding Manual Codes
 
+// 4.5.10 Wound Location Variables
+* #WoundLocation0 "Absent (not wounded)"
+* #WoundLocation1 "Present (wounded)"
+* #WoundLocation8 "Not applicable"
+// #WoundLocation9 - Unknown is defined from SNOMED Null Flavor.
+
 // 5.5.9 Gang-related: CME/LE_GangRelated
 * #GangRelated0 "No, Not available, Unknown"
 * #GangRelated1 "Yes, gang motivated"

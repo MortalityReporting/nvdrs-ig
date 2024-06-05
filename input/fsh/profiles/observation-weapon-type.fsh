@@ -13,3 +13,4 @@ Description: "Defines constraints on the Observation resource to capture informa
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * value[x] from nvdrs-weapon-type-vs (required)
+  * text ^short = "If value is other, weapon type SHALL be indicated here."
