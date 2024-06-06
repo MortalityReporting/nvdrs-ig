@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build and generate Output
-        uses: qligier/fhir-ig-action@v0.3.0
+        uses: HISB-Libraries/fhir-ig-action@v0.3.0
         with:
           ig-publisher: "latest"
           sushi: "latest"
