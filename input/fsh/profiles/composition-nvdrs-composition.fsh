@@ -70,7 +70,7 @@ Description: "Defines constraints to the Composition resource in order to packag
 //  * entry only Reference(nvdrs-weapons-cme) // TODO: Add back constraint, omitted for testing.
 * section[suspects]
   * title = "Suspect(s)"
-  * code = nvdrs-custom-code-system#toxicology "Toxicology"
+  * code = nvdrs-custom-code-system#suspects "Suspect(s)"
   * entry MS
 * section[overdose]
   * title = "Overdose"
