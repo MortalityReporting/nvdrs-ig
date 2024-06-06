@@ -60,7 +60,7 @@ Description: "Code system defined for use in the NVDRS IG artifacts based on the
 * #FirearmType12 "Rifle, Pump Action"
 * #FirearmType13 "Rifle, Semi-automatic"
 * #FirearmType14 "Rifle, Single Shot"
-* #15 "Rifle-Shotgun Combination"
+* #FirearmType15 "Rifle-Shotgun Combination"
 * #FirearmType16 "Shotgun, Unknown Type"
 * #FirearmType17 "Shotgun, Automatic"
 * #FirearmType18 "Shotgun, Bolt Action"
