@@ -65,12 +65,12 @@ Description: "Defines constraints to the Composition resource in order to packag
 //  * entry only Reference(nvdrs-circumstance-cme) // TODO: Add back constraint, omitted for testing.
 * section[weapons]
   * title = "Weapon(s)"
-  * code = nvdrs-custom-code-system#weapons "weapons"
+  * code = nvdrs-custom-code-system#weapons "Weapon(s)"
   * entry MS
 //  * entry only Reference(nvdrs-weapons-cme) // TODO: Add back constraint, omitted for testing.
 * section[suspects]
   * title = "Suspect(s)"
-  * code = nvdrs-custom-code-system#toxicology "Suspect(s)"
+  * code = nvdrs-custom-code-system#suspects "Suspect(s)"
   * entry MS
 * section[overdose]
   * title = "Overdose"
