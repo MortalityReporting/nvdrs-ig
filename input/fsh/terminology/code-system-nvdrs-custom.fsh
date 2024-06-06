@@ -3,6 +3,7 @@ Id: nvdrs-custom-code-system
 Title: "NVDRS IG Custom Codes"
 Description: "Code system defined for use in the NVDRS IG artifacts."
 * ^caseSensitive = true
+* ^experimental = true
 
 // Document Types (Import Type)
 * #dc-report "DC Report"
@@ -47,7 +48,7 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
     "Death was gang related."
 * #self-harm "Non-suicidal self-Injury/self-harm"
     "History of non-suicidal self-Injury/self-harm."
-    
+
 // Custom Toxicology codes
 * #amphetimines "Amphetimines Tested"
     "Decedent was tested for presence of amphetimines."
