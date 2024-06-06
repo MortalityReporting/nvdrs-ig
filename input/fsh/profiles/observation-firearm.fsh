@@ -1,5 +1,5 @@
 Profile: NVDRSFirearm
-Parent: nvdrs-weapons-cme
+Parent: nvdrs-weapons
 Id: nvdrs-firearm
 Title: "NVDRS Firearm"
 Description: "Defines constraints on the Observation resource to capture information on a Firearm for NVDRS records."
@@ -8,8 +8,8 @@ Description: "Defines constraints on the Observation resource to capture informa
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
 * extension contains 
     nvdrs-firearm-stolen-extension named nvdrs-firearm-stolen 0..1 MS and
-    nvdrs-gun-stored-loaded-extension named nvdrs-stored-loaded 0..1 MS and
-    nvdrs-gun-stored-locked-extension named nvdrs-stored-locked 0..1 MS and
+    nvdrs-firearm-stored-loaded-extension named nvdrs-stored-loaded 0..1 MS and
+    nvdrs-firearm-stored-locked-extension named nvdrs-stored-locked 0..1 MS and
     nvdrs-firearm-owner-extension named nvdrs-firearm-owner 0..1 MS and
     firearm-serial-number named serial-number 0..1
 * code MS

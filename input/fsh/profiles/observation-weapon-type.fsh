@@ -1,5 +1,5 @@
 Profile: NVDRSWeaponType
-Parent: nvdrs-weapons-cme
+Parent: nvdrs-weapons
 Id: nvdrs-weapon-type
 Title: "NVDRS Weapon Type"
 Description: "Defines constraints on the Observation resource to capture information on weapon type."
@@ -13,3 +13,4 @@ Description: "Defines constraints on the Observation resource to capture informa
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * value[x] from nvdrs-weapon-type-vs (required)
+  * text ^short = "If value is other, weapon type SHALL be indicated here."

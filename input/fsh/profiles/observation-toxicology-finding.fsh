@@ -1,5 +1,5 @@
 Profile: NVDRSToxicologyFinding
-Parent: nvdrs-toxicology-cme
+Parent: nvdrs-toxicology
 Id: nvdrs-toxicology-finding
 Title: "NVDRS Toxicology Finding"
 Description: "Defines constraints on the Observation resource to capture Toxicology result data." // TODO: Complete desc.
