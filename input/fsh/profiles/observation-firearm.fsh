@@ -25,7 +25,7 @@ Description: "Defines constraints on the Observation resource to capture informa
     model 0..1 MS and
     caliber 0..1 MS and
     gauge 0..1 MS
-* component[type].code = nvdrs-custom-code-system#firearm-type "Firearm - Type"
+* component[type].code = nvdrs-custom-code-system#firearm-type "Firearm - Firearm Type"
 * component[type].value[x] only CodeableConcept
 * component[make].code = nvdrs-custom-code-system#firearm-make "Firearm - Gun Make or NCIC Code"
 * component[make].value[x] only string or CodeableConcept
