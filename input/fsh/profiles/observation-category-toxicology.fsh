@@ -1,6 +1,6 @@
-Profile: NVDRSToxicologyCME
+Profile: NVDRSToxicology
 Parent: Observation
-Id: nvdrs-toxicology-cme
+Id: nvdrs-toxicology
 Title: "NVDRS Toxicology Category Observation"
 Description: "Defines constraints on the Observation resource to capture items in the Toxicology category. This is a parent profile."
 * ^experimental = true
