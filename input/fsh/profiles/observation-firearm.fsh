@@ -27,6 +27,7 @@ Description: "Defines constraints on the Observation resource to capture informa
     gauge 0..1 MS
 * component[type].code = nvdrs-custom-code-system#firearm-type "Firearm - Firearm Type"
 * component[type].value[x] only CodeableConcept
+* component[type].value[x] from nvdrs-firearm-type-vs (required)
 * component[make].code = nvdrs-custom-code-system#firearm-make "Firearm - Gun Make or NCIC Code"
 * component[make].value[x] only string or CodeableConcept
 * component[make].valueCodeableConcept from ncic-firearm-make (preferred) // TODO: Fix this so it doesn't display oddly in the rendered HTML
@@ -37,17 +38,3 @@ Description: "Defines constraints on the Observation resource to capture informa
   // TODO: Add quantity?
 * component[gauge].code = nvdrs-custom-code-system#firearm-gauge "Firearm - Gauge"
 * component[gauge].value[x] only string
-
-/**
-Fields for discussion:
-Gun Loaded
-Gun Owner
-Gun Stored Locked
-Firearm Stolen
-
-General thoughts: As these act as modifiers wherein the core resource describes 
-the attributes of the firearm as an object, an extension might be the most
-appropriate case for each. For Gun Owner, this also allows the use of a valueReference
-wherein we can provide an opportunity for either a direct Person resource reference
-or capturing summary data in the reference object.
-**/
