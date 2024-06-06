@@ -45,6 +45,33 @@ Description: "Code system defined for use in the NVDRS IG artifacts based on the
 * #WeaponType66 "Other (e.g., Taser, electrocution, nail gun, exposure to environment/weather)"
 // #WeaponType99 - Unknown is defined from SNOMED Null Flavor.
 
+// 6.3.1 Firearm type: FirearmType
+* #FirearmType1 "Submachine Gun"
+* #FirearmType2 "Handgun, Unknown Type"
+* #FirearmType3 "Handgun, Pistol- Bolt Action"
+* #FirearmType4 "Handgun, Pistol- Derringer"
+* #FirearmType5 "Handgun, Pistol- Single Shot"
+* #FirearmType6 "Handgun, Pistol- Semi-automatic"
+* #FirearmType7 "Handgun, Revolver"
+* #FirearmType8 "Rifle, Unknown Type"
+* #FirearmType9 "Rifle, Automatic"
+* #FirearmType10 "Rifle, Bolt Action"
+* #FirearmType11 "Rifle, Lever Action"
+* #FirearmType12 "Rifle, Pump Action"
+* #FirearmType13 "Rifle, Semi-automatic"
+* #FirearmType14 "Rifle, Single Shot"
+* #15 "Rifle-Shotgun Combination"
+* #FirearmType16 "Shotgun, Unknown Type"
+* #FirearmType17 "Shotgun, Automatic"
+* #FirearmType18 "Shotgun, Bolt Action"
+* #FirearmType19 "Shotgun, Double Barrel (Over/Under, Side by Side)"
+* #FirearmType20 "Shotgun, Pump Action"
+* #FirearmType21 "Shotgun, Semi-automatic"
+* #FirearmType22 "Shotgun, Single Shot"
+* #FirearmType23 "Long gun, Unknown type"
+* #FirearmType66 "Other (e.g., handmade gun)"
+// #FirearmType99 - Unknown is defined from SNOMED Null Flavor
+
 // 6.3.11 Gun Owner: GunOwner
 * #GunOwner1 "Shooter"
 * #GunOwner2 "Parent of shooter"
