@@ -41,6 +41,10 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #firearm-gauge "Firearm - Gauge"
     "The gauge of the firearm."
 
+// Demographics codes
+* #homeless-at-death "Homeless (at time of death)"
+    "Decedent was homeless at the time of death."
+
 // Circumstances codes
 * #playing-with-firearm "Playing with Firearm"
     "Playing with Firearm."

@@ -9,4 +9,3 @@ Description: "Defines constraints on the Observation resource to capture items i
 * category MS
 * category = nvdrs-custom-code-system#demographics "Demographics"
 * code MS
-// * code from nvdrs-weapons-vs (required) // TODO: Create VS for Demographics Obs
