@@ -62,15 +62,3 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #wound-to-the-thorax "Wound to the thorax"
 * #wound-to-the-abdomen "Wound to the abdomen"
 * #wound-to-a-lower-exterminity "Wound to a lower extremity"
-
-
-// NVDRS Coding Manual Codes
-
-// Gun Owner
-* #shooter "Shooter"
-* #parent "Parent of shooter"
-* #other-family-member "Other family member of shooter"
-* #intimate-partner "Spouse/Intimate partner of shooter"
-* #friend-acquaintance "Friend/Acquaintance of shooter"
-* #stranger "Stranger to shooter"
-* #other-specify "Other (specify in gun access narrative)"
