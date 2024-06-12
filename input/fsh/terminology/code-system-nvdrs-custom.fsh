@@ -53,6 +53,12 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #self-harm "Non-suicidal self-Injury/self-harm"
     "History of non-suicidal self-Injury/self-harm."
 
+// Injury and Death Codes
+* #victim-in-custody-when-injured "Victim in custody when injured"
+
+// Non NVDRS Codes
+* #suicide-note "Suicide Note"
+
 // Custom Toxicology codes
 * #amphetimines "Amphetimines Tested"
     "Decedent was tested for presence of amphetimines."
