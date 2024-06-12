@@ -4,6 +4,11 @@ Title: "NVDRS IG Custom Codes"
 Description: "Code system defined for use in the NVDRS IG artifacts."
 * ^caseSensitive = true
 
+* #demographics "Demographics"
+    "Data elements that fall under the demographics category."
+* #injury-and-death "Injury and Death"
+    "Data elements that fall under the injury and death category."
+
 // Firearm observation codes
 * #circumstances "Circumstances"
     "Circumstances"
@@ -63,3 +68,10 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #7 "Stranger to shooter"
 * #66 "Other (specify in gun access narrative)"
 * #99 "Unknown"
+
+// Injury and Death Codes
+* #victim-in-custody-when-injured "Victim in custody when injured"
+
+
+* #homeless-at-death "Homeless (at time of death)"
+    "Decedent was homeless at the time of death."
