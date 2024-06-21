@@ -52,12 +52,19 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
     "Death was gang related."
 * #self-harm "Non-suicidal self-Injury/self-harm"
     "History of non-suicidal self-Injury/self-harm."
+* #death-abuse "Abuse or neglect led to death"
+    "Abuse or neglect led to death."
+* #current-depressed-mood "Current depressed mood"
+* #random-violence "Incident is Random Violence"
+* #school-problem "School Problem"
+* #history-of-suicide-attempts "History of Suicide Attempts"
 
 // Injury and Death Codes
 * #victim-in-custody-when-injured "Victim in custody when injured"
 
 // Non NVDRS Codes
 * #suicide-note "Suicide Note"
+* #history-of-mental-illness "History of Mental Illness"
 
 // Custom Toxicology codes
 * #amphetimines "Amphetimines Tested"
