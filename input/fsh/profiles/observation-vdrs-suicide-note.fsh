@@ -1,7 +1,7 @@
-Profile: SuicideNote
+Profile: VDRSSuicideNote
 Parent: Observation
 Id: vdrs-suicide-note
-Title: "Suicide Note"
+Title: "VDRS Suicide Note"
 Description: "Defines constraints on the Observation resource to provide the content of a suicide note. Note: This is a non-NVDRS profile." // TODO: Complete desc.
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"

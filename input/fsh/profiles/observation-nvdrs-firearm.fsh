@@ -11,7 +11,7 @@ Description: "Defines constraints on the Observation resource to capture informa
     nvdrs-firearm-stored-loaded-extension named nvdrs-stored-loaded 0..1 MS and
     nvdrs-firearm-stored-locked-extension named nvdrs-stored-locked 0..1 MS and
     nvdrs-firearm-owner-extension named nvdrs-firearm-owner 0..1 MS and
-    firearm-serial-number named serial-number 0..1
+    vdrs-firearm-serial-number named serial-number 0..1
 * code MS
 * code = nvdrs-custom-code-system#firearm "Details on Firearm"
 * component ..* MS

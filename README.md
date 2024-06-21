@@ -19,7 +19,21 @@ It is recommended before running the IG generation script that you first run jus
 
 # CHANGE LOG
 
-## Jun 21, 2024
+## Jun 21, 2024 - Update #2
+* Added the "VDRS" Prefix to the name of generic VDRS Profiles and extensions.
+    * History of Mental Illness -> VDRS History of Mental Illness
+    * Suicide Note -> VDRS Suicide Note
+    * Firearm Serial Number -> VDRS Firearm Serial Number
+* Changes made to the NVDRS Firearm profile to reflect the shift in naming conventions with Firearm Serial Number.
+* New generic VDRS Profiles:
+    * VDRS Number of Victims (Non Fatal).
+    * VDRS Number of Deaths.
+* New NVDRS Profiles:
+    * NVDRS Drive-by Shooting.
+    * NVDRS Number of Bullets.
+    * NVDRS EMS at Scene.
+
+## Jun 21, 2024 - Update #1
 * Renamed many FSH input files to better organize them between NVDRS and generic VDRS. (Should not impact users.)
 * (TERMINOLOGY) The NVDRS Category Circumstances Profile now supports the following codes through its valueset, and all have been implemented in the custom code system.
     * #self-harm "Non-suicidal self-Injury/self-harm"

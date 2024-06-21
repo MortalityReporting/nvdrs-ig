@@ -1,7 +1,7 @@
-Profile: HistoryOfMentalIllness
+Profile: VDRSHistoryOfMentalIllness
 Parent: Observation
 Id: vdrs-history-of-mental-illness
-Title: "History of Mental Ilnness"
+Title: "VDRS History of Mental Ilnness"
 Description: "Defines constraints on the Observation resource to provide the content of a suicide note. Note: This is a non-NVDRS profile." // TODO: Complete desc.
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"
