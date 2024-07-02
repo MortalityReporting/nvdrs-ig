@@ -19,6 +19,9 @@ It is recommended before running the IG generation script that you first run jus
 
 # CHANGE LOG
 
+## Jul 22, 2024
+* Fixed NVDRS History of Alcohol Use to be categorized as "circumstances".
+
 ## Jun 21, 2024 - Update #2
 * Added the "VDRS" Prefix to the name of generic VDRS Profiles and extensions.
     * History of Mental Illness -> VDRS History of Mental Illness
