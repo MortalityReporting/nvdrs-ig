@@ -2,6 +2,8 @@ Extension: NVDRSFirearmOwnerExtension
 Id: nvdrs-firearm-owner-extension
 Title: "NVDRS Firearm Owner Extension"
 Description: "Defines an extension for the Firearm profile to capture information related to the Firearm's owner."
+* ^context.type = #element
+* ^context.expression = "Observation"
 * extension contains 
     code 1..1 MS and
     narrative 0..1 MS and
