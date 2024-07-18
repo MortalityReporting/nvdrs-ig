@@ -7,7 +7,7 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 
 // Document Types (Import Type)
 * #dc-report "DC Report"
-* #cme-report "CME Report"
+* #cme-report "C/ME Report"
 * #icd-10 "ICD-10" // TODO: Need context on this.
 
 // Category Codes -- Can be used as both Composition section codes and observation categories.
