@@ -19,6 +19,15 @@
           "path": "https://mortalityreporting.github.io/nvdrs-ig/",
           "sequence": "STU 1",
           "fhirversion": "4.0.1",
+          "current": false
+        },
+        {
+          "version": "0.2.0",
+          "date": "2024-07-18",
+          "desc": "draft",
+          "path": "https://mortalityreporting.github.io/nvdrs-ig/",
+          "sequence": "STU 1",
+          "fhirversion": "4.0.1",
           "current": true
         }
       ]
