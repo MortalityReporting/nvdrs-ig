@@ -59,6 +59,7 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #school-problem "School Problem"
 * #history-of-suicide-attempts "History of Suicide Attempts"
 * #drive-by-shooting "Drive-by Shooting"
+* #drug-involvement "Drug Involvement"
 
 // Injury and Death Codes
 * #victim-in-custody-when-injured "Victim in custody when injured"

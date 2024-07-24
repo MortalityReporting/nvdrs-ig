@@ -14,5 +14,5 @@ Description: "Defines constraints to the Bundle resource in order to package NVD
 
 Invariant: nvdrs-bdl-1
 Description: "If Bundle is of type document, the first resource in Bundle.entry SHALL be of type Composition conforming to the NVDRS Composition Profile"
-Expression: "entry.first().resource.meta.profile.contains('https://mortalityreporting.github.io/nvdrs-ig/StructureDefinition/nvdrs-composition')"
+Expression: "entry.first().resource.meta.profile.contains('http://mortalityreporting.github.io/nvdrs-ig/StructureDefinition/nvdrs-composition')"
 Severity: #error

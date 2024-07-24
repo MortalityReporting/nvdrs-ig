@@ -6,6 +6,9 @@ Description: "Defines constraints on the Observation resource to capture social 
 * ^experimental = true
 * ^publisher = "Georgia Tech Research Institute"
 * ^jurisdiction = urn:iso:std:iso:3166#US "United States of America"
-* category MS
-* category = nvdrs-custom-code-system#demographics "Demographics"
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.rules = #open
+* category contains
+    demographics 1..1 MS
+* category[demographics] = nvdrs-custom-code-system#demographics "Demographics"
 * code MS
