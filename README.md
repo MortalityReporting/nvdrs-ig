@@ -19,6 +19,11 @@ It is recommended before running the IG generation script that you first run jus
 
 # CHANGE LOG
 
+## Aug 1, 2024 
+* VDRS Suicide Note and all related codes has been adjusted to VDRS Suicide Content
+* New NVDRS Profiles:
+    * NVDRS Person Left a Suicide Note. (Note: This is a Y/N/U value profile aligned with the NVDRS data schema.)
+
 ## Jul 22, 2024
 * Fixed NVDRS History of Alcohol Use to be categorized as "circumstances".
 

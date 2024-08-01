@@ -60,6 +60,7 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 * #history-of-suicide-attempts "History of Suicide Attempts"
 * #drive-by-shooting "Drive-by Shooting"
 * #drug-involvement "Drug Involvement"
+* #person-left-a-suicide-note "Person Left a Suicide Note"
 
 // Injury and Death Codes
 * #victim-in-custody-when-injured "Victim in custody when injured"
@@ -68,7 +69,7 @@ Description: "Code system defined for use in the NVDRS IG artifacts."
 
 // Non NVDRS Codes
 // Note: These are defined to close gaps with state VDRS systems.
-* #suicide-note "Suicide Note"
+* #suicide-note-content "Suicide Note Content"
 * #history-of-mental-illness "History of Mental Illness"
 * #number-of-victims "Number of Victims (Non Fatal)"
 * #number-of-deaths "Number of Deaths"
