@@ -6,4 +6,4 @@ Description: "Defines an extension for the Firearm profile to capture informatio
 * ^context.expression = "Observation"
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* value[x] from $vrdr-yes-no-unk-vs (extensible)
+* value[x] from $vrdr-yes-no-unk-na-vs (extensible)

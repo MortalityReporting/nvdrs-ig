@@ -9,4 +9,4 @@ Description: "Defines constraints on the Observation resource to capture whether
 * code MS
 * code = nvdrs-custom-code-system#current-depressed-mood "Current depressed mood"
 * value[x] only CodeableConcept
-* value[x] from $vrdr-yes-no-unk-vs (required)
+* value[x] from $vrdr-yes-no-unk-na-vs (required)

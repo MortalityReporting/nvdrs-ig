@@ -11,4 +11,4 @@ just long enough to use a weapon."
 * code MS
 * code = nvdrs-custom-code-system#drive-by-shooting "Drive-by Shooting"
 * value[x] only CodeableConcept
-* value[x] from $vrdr-yes-no-unk-vs (required)
+* value[x] from $vrdr-yes-no-unk-na-vs (required)

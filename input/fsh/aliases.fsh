@@ -15,6 +15,7 @@ Alias: $us-core-social-history = http://hl7.org/fhir/us/core/StructureDefinition
 
 // VRCL, VRDR, or MDI Terminologies
 Alias: $vrdr-yes-no-unk-vs = http://hl7.org/fhir/us/vr-common-library/ValueSet/ValueSet-yes-no-unknown-vr
+Alias: $vrdr-yes-no-unk-na-vs = http://hl7.org/fhir/us/vr-common-library/ValueSet/ValueSet-yes-no-unknown-not-applicable-vr
 
 //VRDR Profiles
 Alias: $vrdr-manner-of-death = http://hl7.org/fhir/us/vrdr/StructureDefinition/vrdr-manner-of-death

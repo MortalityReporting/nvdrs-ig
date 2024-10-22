@@ -9,4 +9,4 @@ Description: "The victim was killed by a random act of violence."
 * code MS
 * code = nvdrs-custom-code-system#random-violence "Incident is Random Violence"
 * value[x] only CodeableConcept
-* value[x] from $vrdr-yes-no-unk-vs (required)
+* value[x] from $vrdr-yes-no-unk-na-vs (required)
