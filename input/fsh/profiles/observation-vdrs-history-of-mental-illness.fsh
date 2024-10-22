@@ -9,4 +9,4 @@ Description: "Defines constraints on the Observation resource to provide the con
 * code MS
 * code = nvdrs-custom-code-system#history-of-mental-illness "History of Mental Illness"
 * value[x] only CodeableConcept
-* value[x] from $vrdr-yes-no-unk-vs (required)
+* value[x] from $vrdr-yes-no-unk-na-vs (required)

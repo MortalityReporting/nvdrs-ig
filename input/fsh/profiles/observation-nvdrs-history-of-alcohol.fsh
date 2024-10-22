@@ -9,4 +9,4 @@ Description: "Defines constraints on the Observation resource to capture whether
 * code MS
 * code = $loinc#11331-6 "History of Alcohol Use"
 * value[x] only CodeableConcept
-* value[x] from $vrdr-yes-no-unk-vs (required)
+* value[x] from $vrdr-yes-no-unk-na-vs (required)
